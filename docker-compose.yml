@@ -2,7 +2,7 @@
 version: "3"
 services:
     mariadb:
-        image: mariadb
+        image: mariadb:10.3
         command: --max_connections=200
         container_name: mariadb
         ports:
